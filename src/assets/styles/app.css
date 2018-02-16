@@ -1,0 +1,39 @@
+#app {
+  position: relative;
+  width: 100%;
+  flex: 1 1 auto;
+  /* height: 100%; */
+}
+
+#app .conversational-form {
+  font-size: 1em;
+}
+
+#app cf-chat-response.user .show {
+  background-color: rgba(232, 68, 47, .8);
+  color: #fff;
+}
+
+#app cf-chat-response.robot .show {
+  background-color: #f6f5f4;
+  color: rgb(24, 41, 53);
+}
+
+#app .cf-button {
+  color: rgb(68, 189, 208);
+  /* color: rgba(232, 68, 47, 1); */
+}
+
+#app .cf-button cf-radio {
+  /* background-color: rgb(68, 189, 208); */
+  display: none;
+}
+
+#app cf-input input, cf-input textarea {
+  color: rgb(24, 41, 53);
+  font-size: 2em;
+}
+
+.emoji-icon {
+  font-size: 3em;
+}
