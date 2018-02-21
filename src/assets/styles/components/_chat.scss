@@ -1,0 +1,35 @@
+#chat {
+  width: 100%;
+  .conversational-form {
+    font-size: 1em;
+  }
+
+  cf-chat-response.user .show {
+    background-color: rgba(232, 68, 47, .8);
+    color: #fff;
+  }
+
+  cf-chat-response.robot .show {
+    background-color: #f6f5f4;
+    color: rgb(24, 41, 53);
+  }
+
+  .cf-button {
+    color: rgb(68, 189, 208);
+    /* color: rgba(232, 68, 47, 1); */
+  }
+
+  .cf-button cf-radio {
+    /* background-color: rgb(68, 189, 208); */
+    display: none;
+  }
+
+  cf-input input, cf-input textarea {
+    color: rgb(24, 41, 53);
+    // font-size: 2em;
+  }
+
+  .emoji-icon {
+    font-size: 3em;
+  }
+}

@@ -1,0 +1,20 @@
+.site-header {
+  display: flex;
+  justify-content: space-around;
+  height: #{(60 / 320) * 100vw};
+  background: $color-white;
+  padding: 0 2em;
+
+  @media (min-width: #{120px * 320px / 60px}) {
+    height: 120px;
+  }
+
+  &__title {
+    margin: auto 0;
+    height: 60%;
+  }
+
+  &__logo {
+    max-height: 100%;
+  }
+}

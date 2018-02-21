@@ -2,20 +2,25 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Zimo App</title>
   </head>
   <body>
-    <sidebar>
-      <h1>
-        <img src=<%= require("./assets/images/logo-zimo.svg") %> alt="Logo de Zimo">
-      </h1>
+    <!-- <sidebar>
+
+
+      <p>Zimo est une application qui facile la communication entre les locataires, gestionnaire de logement et propriétaire.</p>
+
       <p class="footer"><img src=<%= require("./assets/icons/code.svg") %> alt="Programmé"> avec <img src=<%= require("./assets/icons/like.svg") %> alt="passion"> par <a href="https://marcantoineruel.com">Marc-Antoine Ruel</a></p>
-    </sidebar>
+    </sidebar> -->
+    <header class="site-header">
+      <h1 class="site-header__title">
+        <img class="site-header__logo" alt="Logo de Zimo" src=<%= require('./assets/images/logo-zimo.svg') %>>
+      </h1>
+    </header>
     <main>
-      <div class="title">
-        <p>Étude de marché</p>
-      </div>
-      <div id="app"></div>
+      <div id="chat"></div>
     </main>
   </body>
 </html>

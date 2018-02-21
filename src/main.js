@@ -1,8 +1,7 @@
 import cf from 'conversational-form';
 import tags from './tags';
 
-import './assets/styles/style.css';
-import './assets/styles/app.css';
+import './assets/styles/app.scss';
 
 let cfInstance = {};
 
@@ -30,6 +29,6 @@ cfInstance = cf.startTheConversation({
 });
 
 
-document.querySelector('#app').appendChild(cfInstance.el);
+document.querySelector('#chat').appendChild(cfInstance.el);
 
 cfInstance.focus();

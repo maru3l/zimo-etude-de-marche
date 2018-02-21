@@ -1,0 +1,8 @@
+main {
+  position: relative; //Needed by the conversational-form
+  height: calc(100vh - #{(60 / 320) * 100vw});
+
+  @media (min-width: #{120px * 320px / 60px}) {
+    height: calc(100vh - 120px);
+  }
+}
